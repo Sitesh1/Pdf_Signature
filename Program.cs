@@ -61,9 +61,9 @@ namespace SignPdf
 
             string resp = "";
             byte[] by = null;
-            string inputFilePath = @"D:\simplepdf.pdf";
-            string outputFilePath = @"D:\sinedpdf1.pdf";
-            string PfxFilePath = @"D:\pfx\pfxfile.pfx";
+            string inputFilePath = @"D:\simplepdf.pdf"; //Replace with your path
+            string outputFilePath = @"D:\sinedpdf1.pdf"; //Replace with your path
+            string PfxFilePath = @"D:\pfx\pfxfile.pfx"; //Replace with your path
             PdfReader reader = new PdfReader(inputFilePath);
             //byte[] data = Encoding.UTF8.GetBytes(PfxFilePath);
 
